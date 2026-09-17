@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 4 - Assignment 1</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="main-div">
+    <div class="tasks">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="task2.html">Task 2</a></li>
+            <li><a href="task3.html">Task 3</a></li>
+            <li><a href="task4.html">Task 4</a></li>
+        </ul>
+    </div>
+
+    <h1 id="main-heading">Task 4: Tables and Forms</h1>
+    <p>This page shows student grades and a feedback form.</p>
+
+    <h2>Student Grades</h2>
+    <table class="grades-table">
+        <thead>
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th colspan="2">Grades</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Nikolay Kozlov</td>
+            <td>Web Tech</td>
+            <td>Midterm: 90</td>
+            <td>Final: 95</td>
+        </tr>
+        <tr class="highlight-row">
+            <td>Ivan Ivanov</td>
+            <td>Algorithms</td>
+            <td>Midterm: 85</td>
+            <td>Final: 88</td>
+        </tr>
+        <tr>
+            <td>Anna Smith</td>
+            <td>Databases</td>
+            <td>Midterm: 92</td>
+            <td>Final: 94</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br><hr><br>
+
+    <h2>Feedback Form</h2>
+    <form action="#" method="POST">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="role">Role:</label><br>
+        <select id="role" name="role">
+            <option value="student">Student</option>
+            <option value="teacher">Teacher</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label>Do you like this website?</label><br>
+        <input type="radio" id="yes" name="liked" value="yes" checked>
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" name="liked" value="no">
+        <label for="no">No</label><br><br>
+
+        <label for="comments">Comments:</label><br>
+        <textarea id="comments" name="comments" rows="3"></textarea><br><br>
+
+        <button type="submit" class="submit-btn">Submit</button>
+    </form>
+
+</div>
+
+</body>
+</html>

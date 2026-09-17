@@ -1,24 +1,30 @@
-# Assignment #1: Introduction to HTML & CSS
+# Assignment 1: HTML & CSS Basics
 
-## 📌 Project Overview
-Personal profile webpage created for Frontend Web Development coursework.
-The project demonstrates core web development concepts, including semantic HTML layout, CSS box model styling, flexbox positioning, and typography.
+This project is a simple multi-page portfolio website created for the Web Technologies course at Astana IT University. It demonstrates fundamental HTML structure, CSS styling, and traditional webpage layouts using floats.
 
 ---
 
-## Features & Implementation
-- **Semantic Structure**: Built with `index.html` using standard HTML5 tags (`<header>`, `<nav>`, `<main>`, `<ol>`, `<ul>`, etc.).
-- **Profile Card**: Displays avatar, student name, group (SE-2529), and info using Flexbox layout[cite: 1].
-- **Navigation Bar**: Clean interactive menu with smooth `:hover` state animations linking across tasks[cite: 1].
-- **CSS Styling**: Custom styling applied via `styles.css` utilizing element, class, and ID selectors[cite: 1].
-- **Responsive Media**: Embedded images styled with `max-width` and `border-radius` for proper containment[cite: 1].
+## Project Structure
+
+* **index.html** — Main portfolio landing page featuring a profile card and navigation links.
+* **task2.html** — Simple webpage layout demonstrating a two-column structure using CSS `float` (without Flexbox or Grid).
+* **task3.html** — Tribute page dedicated to actor Johnny Depp, featuring structural headings, lists, and images.
+* **task4.html** — HTML tables with custom styling and an interactive feedback form.
+* **styles.css** — Shared CSS stylesheet used across all pages.
 
 ---
 
-## Repository Structure
-```text
-├── index.html        # Main HTML layout
-├── styles.css        # External stylesheet
-├── userimage.jpg     # Profile avatar
-├── nature.jpg        # Content image
-└── README.md         # Project documentation
+## Features & Requirements Implemented
+
+1. **HTML Structure:** Uses semantic tags (`header`, `nav`, `section`, `table`, `form`) and lists (`ol`, `ul`).
+2. **CSS Styling:** Applied custom background colors, fonts, margins, padding, and borders.
+3. **Task 2 Layout:** Built using standard CSS `float` positioning (sidebar on the left, main content on the right, and footer with `clear: both`).
+4. **Task 4 Tables & Forms:** Includes student grades with alternate row coloring, row/column merging, and a feedback form with text inputs, email fields, select dropdowns, radio buttons, and textareas.
+
+---
+
+## How to Run
+
+1. Clone or download the repository to your local machine.
+2. Open the project folder in an IDE (such as IntelliJ IDEA or VS Code).
+3. Open `index.html` in any modern web browser to navigate through the tasks.
